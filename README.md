@@ -20,7 +20,7 @@ k8s-helper apply db postgres:15 \
 - Username: `postgres`
 - Password: `postgres`
 
-You can verify the pod and service:
+You can verify the pod and the service:
 
 ```bash
 kubectl get pods
