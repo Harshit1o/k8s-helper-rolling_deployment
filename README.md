@@ -14,7 +14,6 @@ k8s-helper apply db postgres:15 \
   --env POSTGRES_DB=todoapp,POSTGRES_USER=postgres,POSTGRES_PASSWORD=postgres \
   --labels app=db
 ```
-
 ✅ This creates a PostgreSQL pod with:
 - DB name: `todoapp`
 - Username: `postgres`
